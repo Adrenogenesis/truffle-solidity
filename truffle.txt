@@ -1,0 +1,333 @@
+ 1005  df -h
+ 1006  sudo service docker stop
+ 1007  npm install npm@latest -g
+ 1008  npm update -g  
+ 1292  npm outdated
+ 1293  npm update
+ 1294  npm outdated
+ 1295  npm i npm-check-updates 
+ 1296  npm audit fix
+ 1297  ncu
+ 1298  ncu -u
+ 1299  npm i npm-check-updates
+ 1300  npm audit fix
+ 1301  npm install
+ 1302  npm audit fix
+ 1303  npm outdated
+ 1304  npm start
+ 1305  npm rebuild node-sass
+ 1306  npm start
+ 1307  npm uninstall node-sass
+ 1308  npm audit fix
+ 1309  npm install node-sass@4.14.1
+ 1310  npm audit fix
+ 1311  npm rebuild node-sass
+ 1312  npm start
+ 1313  eslint --fix
+ 1314  npm start
+ 1315  npm install --save-dev eslint-plugin-prettier
+ 1316  npm audit fix
+ 1317  npm install --save-dev --save-exact prettier
+ 1318  npm audit fix
+ 1319  npm install
+ 1320  npm audit fix
+ 1321  npm start
+ 1322  npm run lint
+ 1323  npm install --save-dev eslint
+ 1324  npm audit fix
+ 1325  eslint --fix 
+ 1333  npm install npm@latest -g
+ 1334  npm update -g
+ 1335   1360  npm install -g @microfunctions/cli
+ 1361  ls
+ 1362  mkdir microfunctions
+ 1363  cd  microfunctions
+ 1364  mf new signup
+ 1365  mf
+ 1366  microfunctions new signup
+ 1367  microfunctions new signup cd
+ 1368  cd ..
+ 1369  microfunctions new signup
+ 1370  npm install -g @microfunctions/cli
+ 1371  microfunctions --help
+ 1372  sudo npm install -g @microfunctions/cli
+ 1373  microfunctions --help
+ 1374  ls
+ 1375  cd microfunctions
+ 1376  ls
+ 1377  git clone https://github.com/microfunctionsio/signup.git
+ 1378  ls
+ 1379  cd signup
+ 1380  yarn install
+ 1381  yarn run start
+ 1382  node -v
+ 1383  microfunctions --help
+ 1384  node -v
+ 1385  cd microfunctions
+ 1386  mkdir protonmfx
+ 1387  cd protonmfx
+ 1388  echo "# protonmfx" >> README.md
+ 1389  git init
+ 1390  git add README.md
+ 1391  git commit -m "first commit"
+ 1392  git branch -M main
+ 1393  git remote add origin https://
+ 1394  git push -u origin main
+ 1395  cd arachni-1.5.1-0.5.12  
+ 1455  sudo dpkg -i screamingfrogseospider_13.2_all.deb
+ 1456  sudo apt-get -f install  
+ 1488  cd arachni-1.5.1-0.5.12
+ 1489  bin/arachni_web
+ 1490  npm install -g npm@latest
+ 1539  npm update -g
+ 1540  npm install -g @waves/surfboard
+ 1559  docker run -d -p 6869:6869 wavesplatform/waves-private-node
+ 1560  docker ps
+ 1561  docker run -d -e API_NODE_URL=http://localhost:6869 -e NODE_LIST=http://localhost:6869 -p 3000:8080 wavesplatform/explorer
+ 1562  ls
+ 1563  mkdir waves
+ 1564  cd waves
+ 1565  surfboard init
+ 1566  sudo netstat -taupln
+ 1567  docker image ls
+ 1568  docker volume ls
+ 1569  cd
+ 1570  docker volume create portainer_data
+ 1571  docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+ 1572  docker ps
+ 1573  cd waves
+ 1574  surfboard test --env=testnet
+ 1575  sudo service apache2 start
+ 1576  netstat -taupln
+ 1577  surfboard test
+ 1578  surfboard test --env=testnet
+ 1579  surfboard test -v
+ 1580  sudo service apache2 stop  
+ 1591  wget https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213/blob/main/wp-file-manager-exploit.sh
+ 1614  ifconfig
+ 1632  netstat -r
+ 1633  route
+ 1634  traceroute
+ 1635  sudo apt update
+ 1636  sudo apt upgrade
+ 1637  sudo apt install inetutils-traceroute
+ 1638  sudo apt install traceroute
+ 1639  traceroute
+ 1640  traceroute --help
+ 1641  traceroute -g=GATES
+ 1642  sudo traceroute --gateways=GATES
+ 1643  sudo traceroute -g
+ 1644  sudo traceroute -f
+ 1645  traceroute 192.168.8.254
+ 1646  traceroute 192.168.8.12
+ 1647  traceroute 192.168.8.1
+ 1648  onedrive -synchronize
+ 1649  onedrive
+ 1650  ondrive -h
+ 1651  onedrive -h
+ 1652  onedrive
+ 1653  onedrive --logout
+ 1654  sudo apt update
+ 1655  sudo apt install onedrive
+ 1656  sudo apt autoremove  
+ 1662  tar -zcvf Onedrive_090121.tar.gz OneDrive
+ 1663  sudo rm -R OneDrive
+ 1664  mkdir OneDrive
+ 1665  sudo apt-get remove onedrive
+ 1666  sudo apt-get remove --auto-remove onedrive 
+ 1667  sudo apt-get purge onedrive 
+ 1668  sudo apt-get install onedrive
+ 1669  onedrive
+ 1670  onedrive --logout
+ 1671  ls
+ 1672  cd Downloads
+ 1673  ls
+ 1674  sudo dpkg -i insync_3.3.4.40916-bionic_amd64.deb
+ 1675  cd
+ 1676  sudo apt-get remove onedrive
+ 1677  sudo apt-get remove --auto-remove onedrive 
+ 1678  ifconfig
+ 1687  sudo etc/init.d/networking restart
+ 1688  sudo ifdown enp0s31f6
+ 1689  ifconfig
+ 1690  ls
+ 1691  cd Downloads
+ 1692  ls
+ 1693  openssl x509 -outform der -in SSLproxydefaultauthority.pem -out stormshield.crt
+ 1694  ls
+ 1695  cd etc/ssmtp
+ 1697  ifconfig
+ 1698  ip link show  
+ 1703  sudo apt-get install sysv-rc-conf
+ 1704  sudo apt-get install jobs-admin
+ 1705  sudo jobs-admin
+ 1706  Cannot access a disposed object.
+ 1755  Object name: 'KeePass.UI.CustomListViewEx'.
+ 1756  System.Windows.Forms
+ 1757  Void CreateHandle()
+ 1758  Cannot access a disposed object.
+ 1759  Object name: 'KeePass.UI.CustomListViewEx'.
+ 1760  System.Windows.Forms
+ 1761  Void CreateHandle()
+ 1762  npm install -g gatsby-cli
+ 1796  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+ 1797  command -v nvm
+ 1798  nvm
+ 1799  npm -v
+ 1800  gatsby develop
+ 1801  npm install --legacy-peer-deps
+ 1802  npm audit fix
+ 1803  npm audit fix --force
+ 1804  npm audit fix
+ 1805  npm audit fix --force
+ 1806  gatsby develop
+ 1807  npm install
+ 1808  gatsby develop
+ 1809  npm install gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react
+ 1810  gatsby develop
+ 1811  command -v nvm
+ 1812  nvm install node
+ 1813  node -v
+ 1814  nvm install 16.10.0
+ 1815  npm config delete prefix
+ 1816  node -v
+ 1817  nvm use 16.10.0
+ 1818  node -v
+ 1819  nvm ls-remote
+ 1820  npm install -g gatsby-cli
+ 1828  npm audit fix --force
+ 1829  npm install -g npm@7.24.1
+ 1830  npm install -g gatsby-cli
+ 1831  npm audit fix --force
+ 1832  npm audit fix 1833  
+ 1838  npx gatsby new gatsby-starter-portfolio-cara https://github.com/LekoArts/gatsby-starter-portfolio-cara
+ 1839  ls
+ 1840  cd atsby-starter-portfolio-cara
+ 1841  cd gatsby-starter-portfolio-cara
+ 1842  ls
+ 1843  gatsby develop
+ 1844  code .
+ 1845  cd ..
+ 1846  rm -r gatsby-starter-portfolio-cara
+ 1847  sudo rm -r gatsby-starter-portfolio-cara
+ 1848  ls
+ 1849  npx gatsby new gatsby-starter-portfolio-cara https://github.com/LekoArts/gatsby-starter-portfolio-cara
+ 1850  cd gatsby-starter-portfolio-cara
+ 1851  gatsby develop  
+ 1862  npm install -g node-gyp
+ 1863  npm run dev
+ 1864  npm install
+ 1865  npm audit fix
+ 1866  npm audit fix --force
+ 1867  npm run dev
+ 1868  npm i eslint --save-dev
+ 1869  npm audit fix
+ 1870  npm run dev
+ 1871  npm i gatsby-plugin-postcss
+ 1872  npm run dev
+ 1873  cd ..
+ 1874  ls
+ 1875  mkdir g03
+ 1876  cd g03
+ 1877  yarn install
+ 1878  sudo apt update
+ 1879  sudo apt upgrade
+ 1880  yarn --version
+ 1881  sudo apt-get update && sudo apt-get install yarn
+ 1882  yarn --version
+ 1883  yarn install
+ 1884  yarn bootstrap
+ 1885  yarn start
+ 1886  yarn build
+ 1887  serve -s build
+ 1888  cd ..
+ 1889  git init
+ 1890  git add .
+ 1891  git commit -m "first commit"
+ 1892  git remote add origin https://
+ 1893  cd js
+ 1894  cd packages/common || exit
+ 1895  yarn prepare
+ 1896  cd ../web || exit
+ 1897  yarn prestart
+ 1898  CI=false && yarn build
+ 1899  serve -s build
+ 1900  ls
+ 1901  cd ..
+ 1902  serve -s build
+ 1903  cd web
+ 1904  ls
+ 1905  cd packages
+ 1906  ls
+ 1907  cd web
+ 1908  yarn deploy
+ 1909  docker build -t metaplex .
+ 1910  docker run -dp 3000:3000 metaplex 
+ 1917  mkdir metaplex
+ 1918  cd metaplex
+ 1919  git clone https://github.com/metaplex-foundation/metaplex.git
+ 1920  ls
+ 1921  cd metaplex
+ 1922  cd js
+ 1923  yarn install
+ 1924  yarn bootstrap
+ 1925  yarn start
+ 1926  yarn upgrade --latest
+ 1927  yarn bootstrap
+ 1928  yarn start
+ 1929  cd ..
+ 1930  code .
+ 1931  cd js
+ 1932  ls
+ 1933  yarn start
+ 1934  cd ..
+ 1935  ls
+ 1936  mkdir gmetaplex
+ 1937  cd gmetaplex
+ 1938  cd ..
+ 1939  cd metaplex
+ 1940  ls
+ 1941  git init
+ 1942  git add .
+ 1943  git commit -m "first commit"
+ 1944  git remote add origin https://
+ 1945  yarn build
+ 1946  cd js
+ 1947  yarn build
+ 1948  yarn run build
+ 1949  cd ..
+ 1950  ls
+ 1951  cd ..
+ 1952  ls
+ 1953  cd gmetaplex
+ 1954  ls
+ 1955  git clone https://github.com/metaplex-foundation/metaplex.git
+ 1956  docker container ps
+ 1967  docker stop d889c8aa1605
+ 1968  docker run --rm -v portainer_data:/data portainer/helper-reset-password
+ 1969  docker start d889c8aa1605
+ 1970  npm install @openzeppelin/contracts
+ 1979  npm audit fix
+ 1980  npm install typescript --save-dev
+ 1981  npm audit fix
+ 1982  ng new adrenonft
+ 1983  ls
+ 1984  cd adrenonft
+ 1985  ls
+ 1986  ng serve --open
+ 1987  npm install @openzeppelin/contracts
+ 1988  npm audit fix
+ 1989  npm init -y
+ 1990  npm install truffle -g
+ 1991  truffle init
+ 1992  truffle: command not found
+ 1993  npx truffle init
+ 1994  git init
+ 1995  git add .
+ 1996  git commit -m "first commit"
+ 1997  git remote add origin https://github.com/protonwebmaster/truffle-solidity.git
+ 1998  npm install --save-dev hardhat
+ 1999  npm audit fix
+ 2000  npx hardhat
+ 2001  npx hardhat compile
+ 2002  npm install @openzeppelin/contracts  
